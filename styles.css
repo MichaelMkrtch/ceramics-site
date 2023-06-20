@@ -2,6 +2,8 @@ body {
   font-family: Cormorant, serif;
 }
 
+/* Navigation Bar */
+
 h1 {
   display: inline-block;
   font-weight: 400;
@@ -35,6 +37,8 @@ a.active {
   border-bottom: 1px solid black;
 }
 
+/* Image Gallery */
+
 .gallery {
   padding: 16px;
 }
@@ -52,8 +56,41 @@ a.active {
   width: 100%;
 }
 
+.card img:hover {
+  opacity: 0.9;
+}
+
 .card h2 {
   display: inline-block;
   font-weight: 400;
   margin: 8px 0 16px 0;
+}
+
+/* About Section */
+
+.about {
+  margin: 100px 0 100px 200px;
+  min-width: 600px;
+  width: 40%;
+}
+
+.about h3 {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.cta {
+  border-bottom: 1px solid black;
+  display: inline-block;
+  margin-top: 0;
+  padding-bottom: 5px;
+}
+
+.contact {
+  margin-top: 100px;
+}
+
+.contact p {
+  font-size: 20px;
+  margin: 5px;
 }
